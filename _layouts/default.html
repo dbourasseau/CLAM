@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>{{ site.title }}</h1>
+      <nav>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Accueil</a></li>
+          <li><a href="{{ '/judo/' | relative_url }}">Judo</a></li>
+          <li><a href="{{ '/jujitsu/' | relative_url }}">Jujitsu</a></li>
+          <li><a href="{{ '/karate/' | relative_url }}">Karaté</a></li>
+          <li><a href="{{ '/aikido/' | relative_url }}">Aïkido</a></li>
+          <li><a href="{{ '/calendrier/' | relative_url }}">Calendrier</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 CLAM CLUB LORMONTAIS DES ARTS MARTIAUX</p>
+    </div>
+  </footer>
+</body>
+</html>

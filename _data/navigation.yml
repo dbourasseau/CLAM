@@ -1,0 +1,12 @@
+- name: Accueil
+  link: /
+- name: Judo
+  link: /judo/
+- name: Jujitsu
+  link: /jujitsu/
+- name: Karaté
+  link: /karate/
+- name: Aïkido
+  link: /aikido/
+- name: Calendrier
+  link: /calendrier/
